@@ -94,7 +94,10 @@ let users = [{
     }
 ];
 
-btn.logInShow.addEventListener("click", () => allFunc.showHide(form.logIn, form.register, "none"));
+btn.logInShow.addEventListener("click", () => {
+    allFunc.showHide(form.logIn, form.register, "none")
+    form.address.style.display = "none"
+});
 
 btn.registerShow.addEventListener("click", () => {
     allFunc.showHide(form.register, form.logIn, "block");
