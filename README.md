@@ -1,2 +1,2 @@
 # SEDC
-SEDC Homeworks 
+SEDC Homeworks and Exercises
