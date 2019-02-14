@@ -180,8 +180,9 @@ $(document).ready(function () {
 
     // 
 
-    console.log("blabla")
+    console.log("blablawsqswqsqwsqwsq")
     console.log("new")
+    console.log("fewfew")
 
 })
 
