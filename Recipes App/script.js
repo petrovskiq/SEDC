@@ -180,7 +180,8 @@ $(document).ready(function () {
 
     // 
 
-    console.log("repo test")
+    console.log("blabla")
+    console.log("new")
 
 })
 
