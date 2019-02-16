@@ -23,7 +23,7 @@ $(document).ready(function () {
                 if (planet.shipsDocked.includes(this)) {
                     console.log("Can't go to a planet that a ship is docked on")
                 } else {
-                    if (this.isDamaged === true || this.isDestroyed === true || this.crew < 1) {
+                    if (this.isDamaged === true || this.isDestroyed === true || this.crew < 1 ||this.fuel <= this.fuel - (planet.distance * 20)) {
                         console.log("Can't start")
 
                     } else {
